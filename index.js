@@ -1,6 +1,6 @@
 const plugin = require("tailwindcss/plugin");
 
-const rdsTailwinTheme = plugin(
+const rdsTailwindTheme = plugin(
     theme: {
         extend: {
           typography: ({ theme }) => ({
@@ -68,4 +68,4 @@ const rdsTailwinTheme = plugin(
       },
 );
 
-module.exports = rdsTailwinTheme;
+module.exports = rdsTailwindTheme;
