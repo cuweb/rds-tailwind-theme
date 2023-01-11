@@ -1,0 +1,15 @@
+{
+	"name": "@cuweb/rds-tailwind-theme",
+	"author": "Web Services",
+	"version": "0.1.0",
+	"description": "This is a Tailwind CSS plugin to add the theme globals to RDS Tailwind UI",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/cuweb/rds-tailwind-theme"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"tailwindcss": "^3.2.4"
+	}
+}
