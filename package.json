@@ -1,7 +1,7 @@
 {
 	"name": "rds-tailwind-theme",
 	"author": "Web Services",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"description": "Tailwind CSS plugin to add the theme globals to RDS Tailwind UI",
 	"main": "index.js",
 	"repository": {
@@ -12,7 +12,10 @@
 		"@carletonuniversity:registry": "https://npm.pkg.github.com"
 	},
 	"license": "MIT",
-	"devDependencies": {
-		"tailwindcss": "^3.2.4"
+	"dependencies": {
+		"tailwindcss": "^3.2.4",
+		"@tailwindcss/aspect-ratio": "^0.4.2",
+		"@tailwindcss/forms": "^0.5.3",
+		"@tailwindcss/typography": "^0.5.9"
 	}
 }

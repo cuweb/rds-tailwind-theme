@@ -67,7 +67,7 @@ module.exports = {
     },
     variants: {},
     plugins: [
-        // require('rds-tailwind-theme'),
+        require('@tailwindcss/aspect-ratio'),
         require('@tailwindcss/forms'),
         require('@tailwindcss/typography')
     ],
