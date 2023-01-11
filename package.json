@@ -8,6 +8,9 @@
 		"type": "git",
 		"url": "https://github.com/cuweb/rds-tailwind-theme"
 	},
+	"publishConfig": {
+		"@carletonuniversity:registry": "https://npm.pkg.github.com"
+	},
 	"license": "MIT",
 	"devDependencies": {
 		"tailwindcss": "^3.2.4"
