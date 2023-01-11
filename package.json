@@ -1,5 +1,5 @@
 {
-	"name": "rds-tailwind-theme",
+	"name": "@rds-tw/rds-tailwind-theme",
 	"author": "Web Services",
 	"version": "0.1.1",
 	"description": "This is a Tailwind CSS plugin to add the theme globals to RDS Tailwind UI",
