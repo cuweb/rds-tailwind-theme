@@ -14,7 +14,7 @@ module.exports = {
               },
             },
           },
-          article: {
+          rds: {
             css: {
               '--tw-prose-body': theme('colors.cu-black[700]'),
               '--tw-prose-headings': theme('colors.cu-black[800]'),
