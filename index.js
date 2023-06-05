@@ -31,6 +31,8 @@ module.exports = {
         },
         gridTemplateColumns: {
           left260: '260px auto',
+          'hero-txtimg-40': 'auto 40%',
+          'hero-txtimg-20': 'auto 20%'
         },
         colors: {
           'cu-red': {
