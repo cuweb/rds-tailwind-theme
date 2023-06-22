@@ -30,9 +30,10 @@ module.exports = {
             "url('https://rds-tailwind.s3.amazonaws.com/assets/cu-waves-white-10.svg')",
         },
         gridTemplateColumns: {
-          left260: '260px auto',
-          'hero-text-image-40': 'auto 40%',
-          'hero-text-image-20': 'auto 20%'
+          'left-260': '260px auto',
+          'split-40-60': '40% auto',
+          'split-60-40': 'auto 40%',
+          'split-80-20': 'auto 20%'
         },
         boxShadow: {
           'hero-text-image': '0 8px 8px -12px rgba(0, 0, 0, 0.3)',
