@@ -41,6 +41,7 @@ module.exports = {
         colors: {
           'cu-red': {
             DEFAULT: '#E91C24',
+            25: '#FEF4F4',
             50: '#FDE9E9',
             100: '#FBD6D7',
             200: '#F7B1B4',
@@ -54,6 +55,7 @@ module.exports = {
           },
           'cu-black': {
             DEFAULT: '#000000',
+            25: '#F9F9F9',
             50: '#F2F2F2',
             100: '#e6e6e6',
             200: '#cccccc',
