@@ -24,10 +24,9 @@ module.exports = {
           },
         }),
         backgroundImage: {
-          'cu-waves-red':
-            "url('https://rds-tailwind.s3.amazonaws.com/assets/cu-waves-red.svg')",
-          'cu-waves-white-10':
-            "url('https://rds-tailwind.s3.amazonaws.com/assets/cu-waves-white-10.svg')",
+          'cu-waves-red': "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-red.svg')",
+          'cu-waves-white-10': "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-white-10.svg')",
+          'quote-icon': 'url("https://cdn.carleton.ca/rds/assets/graphics/quotation.svg")',
         },
         gridTemplateColumns: {
           'left-260': '260px auto',
