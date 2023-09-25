@@ -12,6 +12,12 @@ module.exports = {
                 'text-decoration': 'underline',
               },
             },
+            'li li': {
+              'list-style-type': 'lower-alpha'
+            },
+            'li li li': {
+              'list-style-type': 'lower-roman'
+            }
           },
         },
         rds: {
