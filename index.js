@@ -12,10 +12,10 @@ module.exports = {
                 'text-decoration': 'underline',
               },
             },
-            'li li': {
+            'ol li li': {
               'list-style-type': 'lower-alpha'
             },
-            'li li li': {
+            'ol li li li': {
               'list-style-type': 'lower-roman'
             }
           },
@@ -82,9 +82,9 @@ module.exports = {
   },
   variants: {},
   plugins: [
-      require('@tailwindcss/aspect-ratio'),
-      require('@tailwindcss/container-queries'),
-      require('@tailwindcss/forms'),
-      require('@tailwindcss/typography')
+    require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/container-queries'),
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography')
   ],
 };
