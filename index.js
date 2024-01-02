@@ -23,7 +23,7 @@ module.exports = {
         'xl': {
           css: {
             h2: {
-              'font-size': '1.75em',
+              'font-size': '1.7em',
             },
             h3: {
               'font-size': '1.5em',
