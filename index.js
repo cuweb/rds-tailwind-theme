@@ -20,6 +20,23 @@ module.exports = {
             }
           },
         },
+        'xl': {
+          css: {
+            h2: {
+              'font-size': '1.75em',
+            },
+            h3: {
+              'font-size': '1.5em',
+            },
+            h4: {
+              'font-size': '1.35em',
+            },
+            'h2, h3, h4': {
+              'font-weight': '600',
+              'margin-bottom': '0.5em',
+            },
+          },
+        },
         rds: {
           css: {
             '--tw-prose-headings': theme('colors.cu-black[700]'),
@@ -30,25 +47,6 @@ module.exports = {
           },
         },
       }),
-      listStyleType: {
-        'lower-alpha': 'lower-alpha',
-        'lower-roman': 'lower-roman',
-      },
-      backgroundImage: {
-        'cu-waves-red': "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-red.svg')",
-        'cu-waves-white-10': "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-white-10.svg')",
-        'cu-quote-white': 'url("https://cdn.carleton.ca/rds/assets/graphics/quote-white.svg")',
-        'cu-quote-red-10': 'url("https://cdn.carleton.ca/rds/assets/graphics/quote-red-10.svg")',
-      },
-      gridTemplateColumns: {
-        'left-260': '260px auto',
-        'split-40-60': '40% auto',
-        'split-60-40': 'auto 40%',
-        'split-80-20': 'auto 20%'
-      },
-      boxShadow: {
-        'hero-text-image': '0 8px 8px -12px rgba(0, 0, 0, 0.3)',
-      },
       colors: {
         'cu-red': {
           DEFAULT: '#E91C24',
@@ -78,6 +76,25 @@ module.exports = {
           800: '#333333',
           900: '#191919',
         },
+      },
+      gridTemplateColumns: {
+        'left-260': '260px auto',
+        'split-40-60': '40% auto',
+        'split-60-40': 'auto 40%',
+        'split-80-20': 'auto 20%'
+      },
+      backgroundImage: {
+        'cu-waves-red': "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-red.svg')",
+        'cu-waves-white-10': "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-white-10.svg')",
+        'cu-quote-white': 'url("https://cdn.carleton.ca/rds/assets/graphics/quote-white.svg")',
+        'cu-quote-red-10': 'url("https://cdn.carleton.ca/rds/assets/graphics/quote-red-10.svg")',
+      },
+      boxShadow: {
+        'hero-text-image': '0 8px 8px -12px rgba(0, 0, 0, 0.3)',
+      },
+      listStyleType: {
+        'lower-alpha': 'lower-alpha',
+        'lower-roman': 'lower-roman',
       },
     },
   },
