@@ -40,9 +40,9 @@ module.exports = {
         rds: {
           css: {
             '--tw-prose-headings': theme('colors.cu-black[700]'),
-            '--tw-prose-body': theme('colors.cu-black[700]'),
+            '--tw-prose-body': theme('colors.cu-black[900]'),
             '--tw-prose-links': theme('colors.cu-red[DEFAULT]'),
-            '--tw-prose-bullets': theme('colors.cu-black[600]'),
+            '--tw-prose-bullets': theme('colors.cu-black[800]'),
             '--tw-prose-quote-borders': theme('colors.cu-red[DEFAULT]'),
           },
         },
