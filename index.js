@@ -13,14 +13,14 @@ module.exports = {
               },
             },
             'ol li li': {
-              'list-style-type': 'lower-alpha'
+              'list-style-type': 'lower-alpha',
             },
             'ol li li li': {
-              'list-style-type': 'lower-roman'
-            }
+              'list-style-type': 'lower-roman',
+            },
           },
         },
-        'xl': {
+        xl: {
           css: {
             h2: {
               'font-size': '1.7em',
@@ -41,8 +41,8 @@ module.exports = {
           css: {
             '--tw-prose-headings': theme('colors.cu-black[700]'),
             '--tw-prose-body': theme('colors.cu-black[900]'),
+            '--tw-prose-bullets': theme('colors.cu-black[900]'),
             '--tw-prose-links': theme('colors.cu-red[DEFAULT]'),
-            '--tw-prose-bullets': theme('colors.cu-black[800]'),
             '--tw-prose-quote-borders': theme('colors.cu-red[DEFAULT]'),
           },
         },
@@ -81,7 +81,7 @@ module.exports = {
         'left-260': '260px auto',
         'split-40-60': '40% auto',
         'split-60-40': 'auto 40%',
-        'split-80-20': 'auto 20%'
+        'split-80-20': 'auto 20%',
       },
       backgroundImage: {
         'cu-waves-red': "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-red.svg')",
@@ -98,11 +98,10 @@ module.exports = {
       },
     },
   },
-  variants: {},
   plugins: [
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/container-queries'),
     require('@tailwindcss/forms'),
-    require('@tailwindcss/typography')
+    require('@tailwindcss/typography'),
   ],
 };
