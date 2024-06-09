@@ -23,13 +23,13 @@ module.exports = {
         xl: {
           css: {
             h2: {
-              'font-size': '1.7em',
+              'font-size': '1.75em',
             },
             h3: {
-              'font-size': '1.5em',
+              'font-size': '1.35em',
             },
             h4: {
-              'font-size': '1.35em',
+              'font-size': '1.15em',
             },
             'h2, h3, h4': {
               'font-weight': '600',
