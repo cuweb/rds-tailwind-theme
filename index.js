@@ -29,7 +29,7 @@ module.exports = {
               'font-size': '1.35em',
             },
             h4: {
-              'font-size': '1.15em',
+              'font-size': '1.1em',
             },
             'h2, h3, h4': {
               'font-weight': '600',
