@@ -85,7 +85,7 @@ module.exports = {
       },
       backgroundImage: {
         'cu-waves-red': "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-red.svg')",
-        'cu-waves-white-10': "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-white-10.svg')",
+        'cu-waves-white': "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-white.svg')",
         'cu-quote-white': 'url("https://cdn.carleton.ca/rds/assets/graphics/quote-white.svg")',
         'cu-quote-red-10': 'url("https://cdn.carleton.ca/rds/assets/graphics/quote-red-10.svg")',
       },
