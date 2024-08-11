@@ -88,6 +88,10 @@ module.exports = {
         'cu-waves-white': "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-white.svg')",
         'cu-quote-white': 'url("https://cdn.carleton.ca/rds/assets/graphics/quote-white.svg")',
         'cu-quote-red-10': 'url("https://cdn.carleton.ca/rds/assets/graphics/quote-red-10.svg")',
+        'cu-waves-red-hard-edge':
+          "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-red-hard-edge.svg')",
+        'cu-waves-black-hard-edge':
+          "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-black-hard-edge.svg')",
       },
       boxShadow: {
         'hero-text-image': '0 8px 8px -12px rgba(0, 0, 0, 0.3)',
