@@ -84,16 +84,18 @@ module.exports = {
         'split-80-20': 'auto 20%',
       },
       backgroundImage: {
-        'cu-waves-long-red':
-          "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-long-red.svg')",
-        'cu-waves-long-black':
-          "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-long-black.svg')",
+        'cu-ravens-logo-white':
+          'url("https://cdn.carleton.ca/rds/assets/graphics/cu-ravens-logo-white.svg")',
         'cu-waves-footer-red':
           "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-footer-red.svg')",
-        'cu-waves-hard-edge-red':
-          "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-hard-edge-red.svg')",
         'cu-waves-hard-edge-black':
           "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-hard-edge-black.svg')",
+        'cu-waves-hard-edge-red':
+          "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-hard-edge-red.svg')",
+        'cu-waves-long-black':
+          "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-long-black.svg')",
+        'cu-waves-long-red':
+          "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-long-red.svg')",
         'cu-quote-white':
           'url("https://cdn.carleton.ca/rds/assets/graphics/quote-white.svg")',
         'cu-quote-red-10':
