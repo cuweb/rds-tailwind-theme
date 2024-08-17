@@ -92,10 +92,8 @@ module.exports = {
           "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-hard-edge-black.svg')",
         'cu-waves-hard-edge-red':
           "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-hard-edge-red.svg')",
-        'cu-waves-long-black':
-          "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-long-black.svg')",
-        'cu-waves-long-red':
-          "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-long-red.svg')",
+        'cu-waves-repeat-bottom-red':
+          "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-repeat-bottom-red.svg')",
         'cu-quote-white':
           'url("https://cdn.carleton.ca/rds/assets/graphics/quote-white.svg")',
         'cu-quote-red-10':
