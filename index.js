@@ -5,6 +5,9 @@ module.exports = {
       typography: ({ theme }) => ({
         DEFAULT: {
           css: {
+            'h1, h2, h3, h4': {
+              'font-weight': '600',
+            },
             a: {
               'font-weight': 'semibold',
               'text-decoration': 'none',
@@ -20,6 +23,13 @@ module.exports = {
             },
           },
         },
+        lg: {
+          css: {
+            h1: {
+              'font-size': '2em',
+            },
+          },
+        },
         xl: {
           css: {
             h2: {
@@ -31,19 +41,28 @@ module.exports = {
             h4: {
               'font-size': '1.1em',
             },
-            'h2, h3, h4': {
-              'font-weight': '600',
-              'margin-bottom': '0.5em',
-            },
           },
         },
-        rds: {
+        dark: {
           css: {
+            '--tw-prose-body': theme('colors.cu-black[800]'),
             '--tw-prose-headings': theme('colors.cu-black[700]'),
-            '--tw-prose-body': theme('colors.cu-black[900]'),
-            '--tw-prose-bullets': theme('colors.cu-black[900]'),
             '--tw-prose-links': theme('colors.cu-red[DEFAULT]'),
+            '--tw-prose-bold': theme('colors.cu-black[900]'),
+            '--tw-prose-bullets': theme('colors.cu-black[500]'),
+            '--tw-prose-quotes': theme('colors.cu-red[100]'),
             '--tw-prose-quote-borders': theme('colors.cu-red[DEFAULT]'),
+          },
+        },
+        light: {
+          css: {
+            '--tw-prose-body': theme('colors.white'),
+            '--tw-prose-headings': theme('colors.white'),
+            '--tw-prose-links': theme('colors.cu-red[DEFAULT]'),
+            '--tw-prose-bold': theme('colors.cu-black[100]'),
+            '--tw-prose-bullets': theme('colors.white'),
+            '--tw-prose-quotes': theme('colors.cu-red[200]'),
+            '--tw-prose-quote-borders': theme('colors.red[400]'),
           },
         },
       }),
@@ -79,28 +98,16 @@ module.exports = {
       },
       gridTemplateColumns: {
         'left-260': '260px auto',
-        'split-40-60': '40% auto',
-        'split-60-40': 'auto 40%',
-        'split-80-20': 'auto 20%',
       },
       backgroundImage: {
-        'cu-ravens-logo-white':
-          'url("https://cdn.carleton.ca/rds/assets/graphics/cu-ravens-logo-white.svg")',
-        'cu-waves-footer-red':
-          "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-footer-red.svg')",
-        'cu-waves-hard-edge-black':
-          "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-hard-edge-black.svg')",
-        'cu-waves-hard-edge-red':
-          "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-hard-edge-red.svg')",
+        'cu-quote-white': 'url("https://cdn.carleton.ca/rds/assets/graphics/quote-white.svg")',
+        'cu-quote-red-10': 'url("https://cdn.carleton.ca/rds/assets/graphics/quote-red-10.svg")',
+        'cu-ravens-logo-white': 'url("https://cdn.carleton.ca/rds/assets/graphics/cu-ravens-logo-white.svg")',
+        'cu-waves-footer-red': "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-footer-red.svg')",
+        'cu-waves-hard-edge-black': "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-hard-edge-black.svg')",
+        'cu-waves-hard-edge-red': "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-hard-edge-red.svg')",
         'cu-waves-repeating-bottom-red':
           "url('https://cdn.carleton.ca/rds/assets/graphics/cu-waves-repeating-bottom-red.svg')",
-        'cu-quote-white':
-          'url("https://cdn.carleton.ca/rds/assets/graphics/quote-white.svg")',
-        'cu-quote-red-10':
-          'url("https://cdn.carleton.ca/rds/assets/graphics/quote-red-10.svg")',
-      },
-      boxShadow: {
-        'hero-text-image': '0 8px 8px -12px rgba(0, 0, 0, 0.3)',
       },
       listStyleType: {
         'lower-alpha': 'lower-alpha',
