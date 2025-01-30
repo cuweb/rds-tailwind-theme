@@ -40,9 +40,6 @@ module.exports = {
               'h5, h6': {
                 fontWeight: '600',
               },
-              'ul, ol': {
-                'margin-left': '2rem',
-              },
               'ul ul, ol ol': {
                 'margin-left': '0',
               },
